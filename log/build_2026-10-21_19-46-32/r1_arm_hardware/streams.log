@@ -1,0 +1,31 @@
+[0.096s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+[0.116s] Consolidate compiler generated dependencies of target r1_arm_hardware
+[0.122s] [ 50%] Building CXX object CMakeFiles/r1_arm_hardware.dir/src/r1_arm_hardware.cpp.o
+[1.734s] [100%] Linking CXX shared library libr1_arm_hardware.so
+[1.835s] [100%] Built target r1_arm_hardware
+[1.839s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+[1.842s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware
+[1.844s] -- Install configuration: ""
+[1.844s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/r1_arm_hardware.xml
+[1.845s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib/libr1_arm_hardware.so
+[1.845s] -- Set runtime path of "/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib/libr1_arm_hardware.so" to ""
+[1.845s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/include
+[1.845s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/include/r1_arm_hardware
+[1.845s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/include/r1_arm_hardware/r1_arm_hardware.hpp
+[1.845s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/package_run_dependencies/r1_arm_hardware
+[1.846s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/parent_prefix_path/r1_arm_hardware
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/ament_prefix_path.sh
+[1.846s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/ament_prefix_path.dsv
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/path.sh
+[1.846s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/path.dsv
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.bash
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.sh
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.zsh
+[1.846s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.dsv
+[1.846s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/package.dsv
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/packages/r1_arm_hardware
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/r1_arm_hardware
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/cmake/r1_arm_hardwareConfig.cmake
+[1.846s] -- Up-to-date: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/cmake/r1_arm_hardwareConfig-version.cmake
+[1.846s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/package.xml
+[1.847s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware

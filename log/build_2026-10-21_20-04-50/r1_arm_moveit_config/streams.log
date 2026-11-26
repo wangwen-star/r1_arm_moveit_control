@@ -1,0 +1,45 @@
+[0.005s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config': AMENT_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/home/wangwenyu/桌面/r1_workspace/install/r1_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/opt/ros/humble LD_LIBRARY_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config -- -j16 -l16
+[0.019s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/home/wangwenyu/桌面/r1_workspace/install/r1_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/opt/ros/humble LD_LIBRARY_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config -- -j16 -l16
+[0.022s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config': AMENT_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/home/wangwenyu/桌面/r1_workspace/install/r1_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/opt/ros/humble LD_LIBRARY_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config
+[0.025s] -- Install configuration: ""
+[0.025s] -- Execute custom install script
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/r1_arm_moveit_config
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/r1_arm_moveit_config
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/environment/ament_prefix_path.sh
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/environment/ament_prefix_path.dsv
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/environment/path.sh
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/environment/path.dsv
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/local_setup.bash
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/local_setup.sh
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/local_setup.zsh
+[0.025s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/local_setup.dsv
+[0.025s] -- Symlinking: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/package.dsv
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/ament_index/resource_index/packages/r1_arm_moveit_config
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/cmake/r1_arm_moveit_configConfig.cmake
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/cmake/r1_arm_moveit_configConfig-version.cmake
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/package.xml
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/__pycache__/demo.launch.cpython-310.pyc
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/__pycache__/demo_hardware.launch.cpython-310.pyc
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/demo.launch.py
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/demo_hardware.launch.py
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/move_group.launch.py
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/moveit_rviz.launch.py
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/rsp.launch.py
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/setup_assistant.launch.py
+[0.029s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/spawn_controllers.launch.py
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/launch/warehouse_db.launch.py
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/R1_Robotic_Arm.ros2_control.xacro
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/R1_Robotic_Arm.srdf
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/R1_Robotic_Arm.urdf.xacro
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/R1_Robotic_Arm_hardware.urdf.xacro
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/initial_positions.yaml
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/joint_limits.yaml
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/kinematics.yaml
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/moveit.rviz
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/moveit_controllers.yaml
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/pilz_cartesian_limits.yaml
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/redme.txt
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/config/ros2_controllers.yaml
+[0.030s] -- Up-to-date symlink: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_moveit_config/share/r1_arm_moveit_config/.setup_assistant
+[0.030s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/home/wangwenyu/桌面/r1_workspace/install/r1_arm:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware:/opt/ros/humble LD_LIBRARY_PATH=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_moveit_config

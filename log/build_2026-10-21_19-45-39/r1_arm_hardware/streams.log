@@ -1,0 +1,23 @@
+[0.095s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+[0.114s] Consolidate compiler generated dependencies of target r1_arm_hardware
+[0.119s] [ 50%] Building CXX object CMakeFiles/r1_arm_hardware.dir/src/r1_arm_hardware.cpp.o
+[1.026s] In file included from /usr/include/c++/11/cmath:45,
+[1.026s]                  from /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18,
+[1.026s]                  from /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[1.026s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:25,
+[1.026s]                  from /home/wangwenyu/桌面/r1_workspace/src/r1_arm_hardware/include/r1_arm_hardware/r1_arm_hardware.hpp:4,
+[1.026s]                  from /home/wangwenyu/桌面/r1_workspace/src/r1_arm_hardware/src/r1_arm_hardware.cpp:1:
+[1.026s] /home/wangwenyu/桌面/X86_SDK/r1_arm/thirdparty/motor_controller/include/MotorProtocol.h:133:29: error: expected unqualified-id before numeric constant
+[1.026s]   133 |     static constexpr double M_PI = 3.14159265358979323846; // 圆周率
+[1.026s]       |                             ^~~~
+[1.312s] gmake[2]: *** [CMakeFiles/r1_arm_hardware.dir/build.make:76：CMakeFiles/r1_arm_hardware.dir/src/r1_arm_hardware.cpp.o] 错误 1
+[1.312s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/r1_arm_hardware.dir/all] 错误 2
+[1.312s] gmake: *** [Makefile:146：all] 错误 2
+[1.313s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '2': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16

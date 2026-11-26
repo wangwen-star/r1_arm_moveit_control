@@ -1,0 +1,1 @@
+/home/wangwenyu/桌面/r1_workspace/src/r1_arm_moveit_config/launch/move_group.launch.py

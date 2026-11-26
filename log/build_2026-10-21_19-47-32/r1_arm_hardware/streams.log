@@ -1,0 +1,76 @@
+[0.095s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake /home/wangwenyu/桌面/r1_workspace/src/r1_arm_hardware -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.325s] -- Found hardware_interface: 2.54.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.340s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.342s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.435s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.444s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.461s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.463s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.468s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.470s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.473s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.479s] -- Looking for pthread.h
+[0.508s] -- Looking for pthread.h - found
+[0.508s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.538s] -- Found Threads: TRUE  
+[0.557s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.586s] -- Configuring done
+[0.591s] -- Generating done
+[0.592s] CMake Warning:
+[0.592s]   Manually-specified variables were not used by the project:
+[0.592s] 
+[0.592s]     CATKIN_SYMLINK_INSTALL
+[0.592s] 
+[0.592s] 
+[0.593s] -- Build files have been written to: /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware
+[0.601s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': /usr/bin/cmake /home/wangwenyu/桌面/r1_workspace/src/r1_arm_hardware -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware
+[0.602s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+[0.631s] [ 50%] Building CXX object CMakeFiles/r1_arm_hardware.dir/src/r1_arm_hardware.cpp.o
+[2.224s] [100%] Linking CXX shared library libr1_arm_hardware.so
+[2.301s] [100%] Built target r1_arm_hardware
+[2.305s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+[2.309s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware
+[2.311s] -- Install configuration: ""
+[2.311s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/r1_arm_hardware.xml
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib/libr1_arm_hardware.so
+[2.312s] -- Set runtime path of "/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/lib/libr1_arm_hardware.so" to ""
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/include
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/include/r1_arm_hardware
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/include/r1_arm_hardware/r1_arm_hardware.hpp
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/package_run_dependencies/r1_arm_hardware
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/parent_prefix_path/r1_arm_hardware
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/ament_prefix_path.sh
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/ament_prefix_path.dsv
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/path.sh
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/environment/path.dsv
+[2.312s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.bash
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.sh
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.zsh
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/local_setup.dsv
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/package.dsv
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/packages/r1_arm_hardware
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/r1_arm_hardware
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/cmake/r1_arm_hardwareConfig.cmake
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/cmake/r1_arm_hardwareConfig-version.cmake
+[2.313s] -- Installing: /home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware/share/r1_arm_hardware/package.xml
+[2.313s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware

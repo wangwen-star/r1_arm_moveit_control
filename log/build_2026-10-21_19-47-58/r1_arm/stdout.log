@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing r1_arm.egg-info/PKG-INFO
+writing dependency_links to r1_arm.egg-info/dependency_links.txt
+writing entry points to r1_arm.egg-info/entry_points.txt
+writing requirements to r1_arm.egg-info/requires.txt
+writing top-level names to r1_arm.egg-info/top_level.txt
+reading manifest file 'r1_arm.egg-info/SOURCES.txt'
+writing manifest file 'r1_arm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1-arm.egg-link (link to .)
+
+Installed /home/wangwenyu/桌面/r1_workspace/build/r1_arm
+running symlink_data

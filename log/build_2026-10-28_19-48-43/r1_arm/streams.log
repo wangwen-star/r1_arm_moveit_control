@@ -1,0 +1,16 @@
+[0.325s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm': PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build --no-deps symlink_data
+[0.418s] running develop
+[0.469s] running egg_info
+[0.469s] writing r1_arm.egg-info/PKG-INFO
+[0.469s] writing dependency_links to r1_arm.egg-info/dependency_links.txt
+[0.469s] writing entry points to r1_arm.egg-info/entry_points.txt
+[0.469s] writing requirements to r1_arm.egg-info/requires.txt
+[0.469s] writing top-level names to r1_arm.egg-info/top_level.txt
+[0.470s] reading manifest file 'r1_arm.egg-info/SOURCES.txt'
+[0.470s] writing manifest file 'r1_arm.egg-info/SOURCES.txt'
+[0.471s] running build_ext
+[0.471s] Creating /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1-arm.egg-link (link to .)
+[0.471s] 
+[0.471s] Installed /home/wangwenyu/桌面/r1_workspace/build/r1_arm
+[0.471s] running symlink_data
+[0.484s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm' returned '0': PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build --no-deps symlink_data

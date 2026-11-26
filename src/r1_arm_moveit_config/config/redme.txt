@@ -1,0 +1,6 @@
+记得把部分.yaml文件里面的的关节信息名称填上
+
+1.moveit_controllers.yaml
+
+2.ros2_controllers.yaml
+

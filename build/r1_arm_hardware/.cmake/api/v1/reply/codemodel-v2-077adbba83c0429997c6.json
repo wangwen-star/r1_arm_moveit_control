@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7616da902b5c664d60b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "r1_arm_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "r1_arm_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-r1_arm_hardware-b7ad7b2570cc05340d68.json",
+					"name" : "r1_arm_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "r1_arm_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-r1_arm_hardware_uninstall-a615ff6ad8ab1050433d.json",
+					"name" : "r1_arm_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9a691c7c70cea8c35749.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wangwenyu/\u684c\u9762/r1_workspace/build/r1_arm_hardware",
+		"source" : "/home/wangwenyu/\u684c\u9762/r1_workspace/src/r1_arm_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

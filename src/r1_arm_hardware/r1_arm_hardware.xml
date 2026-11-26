@@ -1,0 +1,7 @@
+<library path="r1_arm_hardware">
+  <class name="r1_arm_hardware/R1ArmHardware"
+         type="r1_arm_hardware::R1ArmHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>R1-7a real arm hardware interface: PROBE-&gt;ENABLE-&gt;READY-&gt;FAULT state machine over ArmMotorBus (USB-485)</description>
+  </class>
+</library>

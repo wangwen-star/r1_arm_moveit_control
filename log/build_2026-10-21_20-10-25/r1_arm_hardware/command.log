@@ -1,0 +1,6 @@
+Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wangwenyu/桌面/r1_workspace/src/r1_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware
+Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wangwenyu/桌面/r1_workspace/src/r1_arm_hardware -DCMAKE_INSTALL_PREFIX=/home/wangwenyu/桌面/r1_workspace/install/r1_arm_hardware
+Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
+Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware
+Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware

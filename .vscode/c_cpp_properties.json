@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "ROS 2 Humble",
+            "includePath": [
+                "${workspaceFolder}/src/r1_arm_hardware/include",
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**",
+                "/home/wangwenyu/桌面/X86_SDK/r1_arm/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

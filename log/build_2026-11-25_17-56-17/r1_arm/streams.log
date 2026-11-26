@@ -1,0 +1,40 @@
+[0.280s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build
+[0.377s] running develop
+[0.436s] Removing /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1-arm.egg-link (link to .)
+[0.456s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build
+[0.457s] Invoking command in '/home/wangwenyu/桌面/r1_workspace/src/r1_arm': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r1_arm build --build-base /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build install --record /home/wangwenyu/桌面/r1_workspace/build/r1_arm/install.log --install-scripts $base/lib/r1_arm --single-version-externally-managed install_data --force
+[0.547s] running egg_info
+[0.547s] writing ../../build/r1_arm/r1_arm.egg-info/PKG-INFO
+[0.548s] writing dependency_links to ../../build/r1_arm/r1_arm.egg-info/dependency_links.txt
+[0.548s] writing entry points to ../../build/r1_arm/r1_arm.egg-info/entry_points.txt
+[0.548s] writing requirements to ../../build/r1_arm/r1_arm.egg-info/requires.txt
+[0.548s] writing top-level names to ../../build/r1_arm/r1_arm.egg-info/top_level.txt
+[0.549s] reading manifest file '../../build/r1_arm/r1_arm.egg-info/SOURCES.txt'
+[0.549s] writing manifest file '../../build/r1_arm/r1_arm.egg-info/SOURCES.txt'
+[0.550s] running build
+[0.550s] running build_py
+[0.550s] running install
+[0.550s] running install_lib
+[0.550s] creating /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1_arm
+[0.550s] copying /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build/lib/r1_arm/__init__.py -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1_arm
+[0.550s] byte-compiling /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1_arm/__init__.py to __init__.cpython-310.pyc
+[0.550s] running install_data
+[0.550s] copying resource/r1_arm -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/ament_index/resource_index/packages
+[0.550s] copying package.xml -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm
+[0.550s] copying launch/display.launch.py -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/launch
+[0.550s] copying urdf/R1_Robotic_Arm.csv -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/urdf
+[0.550s] copying urdf/r1_arm_with_hardware.xacro -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/urdf
+[0.551s] copying urdf/R1_Robotic_Arm.urdf -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/urdf
+[0.551s] copying meshes/Link4.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.552s] copying meshes/Link2.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.553s] copying meshes/Link7.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.554s] copying meshes/Link5.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.555s] copying meshes/base_link.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.559s] copying meshes/Link3.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.560s] copying meshes/Link6.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.561s] copying meshes/Link1.STL -> /home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/meshes
+[0.561s] running install_egg_info
+[0.562s] Copying ../../build/r1_arm/r1_arm.egg-info to /home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages/r1_arm-0.0.0-py3.10.egg-info
+[0.563s] running install_scripts
+[0.573s] writing list of installed files to '/home/wangwenyu/桌面/r1_workspace/build/r1_arm/install.log'
+[0.587s] Invoked command in '/home/wangwenyu/桌面/r1_workspace/src/r1_arm' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r1_arm build --build-base /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build install --record /home/wangwenyu/桌面/r1_workspace/build/r1_arm/install.log --install-scripts $base/lib/r1_arm --single-version-externally-managed install_data --force

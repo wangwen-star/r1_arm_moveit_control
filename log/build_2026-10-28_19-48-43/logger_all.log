@@ -1,0 +1,154 @@
+[0.038s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'r1_arm']
+[0.038s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['r1_arm'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72537fd04a00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72537fd04550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72537fd04550>>)
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.095s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wangwenyu/桌面/r1_workspace'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r1_arm' with type 'ros.ament_python' and name 'r1_arm'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_hardware) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r1_arm_hardware' with type 'ros.ament_cmake' and name 'r1_arm_hardware'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/r1_arm_moveit_config) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r1_arm_moveit_config' with type 'ros.ament_cmake' and name 'r1_arm_moveit_config'
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.115s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'r1_arm_hardware' in 'src/r1_arm_hardware'
+[0.115s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'r1_arm_moveit_config' in 'src/r1_arm_moveit_config'
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[0.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'cmake_args' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'cmake_target' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.133s] Level 5:colcon.colcon_core.verb:set package 'r1_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.133s] DEBUG:colcon.colcon_core.verb:Building package 'r1_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wangwenyu/桌面/r1_workspace/build/r1_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wangwenyu/桌面/r1_workspace/install/r1_arm', 'merge_install': False, 'path': '/home/wangwenyu/桌面/r1_workspace/src/r1_arm', 'symlink_install': True, 'test_result_base': None}
+[0.133s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.134s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wangwenyu/桌面/r1_workspace/src/r1_arm' with build type 'ament_python'
+[0.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('r1_arm', 'ament_prefix_path')
+[0.135s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/hook/ament_prefix_path.ps1'
+[0.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/hook/ament_prefix_path.dsv'
+[0.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/hook/ament_prefix_path.sh'
+[0.136s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.136s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wangwenyu/桌面/r1_workspace/src/r1_arm'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, sdist, update_catalog, init_catalog, build_ext, symlink_data, bdist_dumb, build_clib, test, upload, extract_messages, clean, bdist_egg, compile_catalog, build_scripts, saveopts, install_egg_info, install_headers, build_py, bdist_rpm, setopt, check, rotate, alias, bdist_wheel, register, egg_info, install_scripts, build, upload_docs, develop, easy_install, install, bdist, install_lib, dist_info
+[0.458s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --script-dir, --local-snapshots-ok, --force-installation-into-system-dir, --index-url, --find-links, --upgrade, --egg-path, --uninstall, --build-directory, --verbose, --prefix, --install-dir, --dry-run, --exclude-scripts, --zip-ok, --optimize, --install-layout, --no-user-cfg, --no-deps, --no-find-links, --always-copy, --help, --multi-version, --record, --quiet, --site-dirs, --always-unzip, --editable, --version, --allow-hosts, --user
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm': PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build --no-deps symlink_data
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('r1_arm', 'pythonpath_develop')
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wangwenyu/桌面/r1_workspace/build/r1_arm/share/r1_arm/hook/pythonpath_develop.ps1'
+[0.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm' returned '0': PYTHONPATH=/home/wangwenyu/桌面/r1_workspace/build/r1_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wangwenyu/桌面/r1_workspace/build/r1_arm/build --no-deps symlink_data
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wangwenyu/桌面/r1_workspace/build/r1_arm/share/r1_arm/hook/pythonpath_develop.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wangwenyu/桌面/r1_workspace/build/r1_arm/share/r1_arm/hook/pythonpath_develop.sh'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm' for CMake module files
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm' for CMake config files
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/bin'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/pkgconfig/r1_arm.pc'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/lib/python3.10/site-packages'
+[0.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('r1_arm', 'pythonpath')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/hook/pythonpath.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/hook/pythonpath.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/hook/pythonpath.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/bin'
+[0.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r1_arm)
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/package.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/package.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/package.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/package.bash'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/r1_arm/package.zsh'
+[0.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wangwenyu/桌面/r1_workspace/install/r1_arm/share/colcon-core/packages/r1_arm)
+[0.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.624s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.626s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.631s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wangwenyu/桌面/r1_workspace/install/local_setup.ps1'
+[0.632s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wangwenyu/桌面/r1_workspace/install/_local_setup_util_ps1.py'
+[0.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wangwenyu/桌面/r1_workspace/install/setup.ps1'
+[0.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wangwenyu/桌面/r1_workspace/install/local_setup.sh'
+[0.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wangwenyu/桌面/r1_workspace/install/_local_setup_util_sh.py'
+[0.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wangwenyu/桌面/r1_workspace/install/setup.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wangwenyu/桌面/r1_workspace/install/local_setup.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wangwenyu/桌面/r1_workspace/install/setup.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wangwenyu/桌面/r1_workspace/install/local_setup.zsh'
+[0.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wangwenyu/桌面/r1_workspace/install/setup.zsh'

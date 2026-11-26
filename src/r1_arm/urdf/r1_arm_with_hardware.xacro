@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="R1_Robotic_Arm">
+  <xacro:include filename="$(find r1_arm)/urdf/R1_Robotic_Arm.urdf"/>
+
+  <ros2_control name="R1ArmSystem" type="system">
+    <hardware>
+      <plugin>r1_arm_hardware/R1ArmHardware</plugin>
+      <param name="serial_port">/dev/ttyR1</param>
+      <param name="baud_rate">6000000</param>
+      <param name="calib_path">/home/wangwenyu/桌面/X86_SDK/r1_arm/config/joint_calib.txt</param>
+      <!-- FOC 增益:官方默认 kp=60/kd=0.5。事故后阶梯恢复:
+           0/0(零力矩镜像验证)→ 10/0.2(首档出力)→ 30/0.3 → 60/0.5(官方值,已恢复) -->
+      <param name="kp">60.0</param>
+      <param name="kd">0.5</param>
+      <!-- 状态机参数 -->
+      <param name="probe_timeout_ms">3000</param>
+      <param name="enable_timeout_ms">1000</param>
+      <param name="stop_stream_ms">500</param>
+      <param name="max_lead">0.15</param>
+      <param name="auto_clear_attempts">0</param>
+      <!-- ENABLE 温和化(2026-10-28 撞限位事故后新增,防脏数据/错误位姿猛拉):
+           增益从 kp/kd 的 enable_ramp_start_frac 倍在 enable_ramp_ms 内线性爬升到设定值;
+           保持目标每 tick 最多向实测位姿逼近 enable_max_step(rad);
+           实测偏离捕获位姿超过 enable_drift_max(rad)立即 FAULT;
+           PROBE 捕获位姿超出 URDF 限位 pose_sanity_margin(rad)以上拒绝使能。
+           kp=0(零力矩镜像模式)时爬升/漂移检查自动跳过。 -->
+      <param name="enable_ramp_ms">2000</param>
+      <param name="enable_ramp_start_frac">0.3</param>
+      <param name="enable_max_step">0.01</param>
+      <param name="enable_drift_max">0.5</param>
+      <param name="pose_sanity_margin">0.1</param>
+      <!-- 读数跳变过滤(2026-11-26 J1 多圈编码器偶发复位事件:ENABLE 时读数
+           瞬间跳 2.744 rad,漂移保护正确 FAULT 拦下;过滤器根治该问题):
+           单 tick 跳变超 read_jump_max 的读数保持上一帧,连续 jump_confirm_ticks
+           次一致才接受为真实位置;dq 绝对值超 read_dq_max 丢弃 -->
+      <param name="read_jump_max">1.0</param>
+      <param name="read_dq_max">100.0</param>
+      <param name="jump_confirm_ticks">3</param>
+      <!-- 关节限幅(与 URDF 限位一致;Step 0 联调通过后可收紧) -->
+      <param name="limit_lower">-2.723 0 -0.349 0 -2.269 -0.524 -1.571</param>
+      <param name="limit_upper">2.723 3.1416 3.491 3.1415 2.269 0.524 1.571</param>
+      <!-- 读数补偿(恒等:官方确认本臂出厂标定有问题、寄回重新标定;
+           臂返回后读数应直接正确,补偿归零;必要时可再启用) -->
+      <param name="joint_dir">1 1 1 1 1 1 1</param>
+      <param name="joint_offset">0 0 0 0 0 0 0</param>
+    </hardware>
+
+    <joint name="J1">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="J2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="J3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="J4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="J5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="J6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="J7">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+</robot>
