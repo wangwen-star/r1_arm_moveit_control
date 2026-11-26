@@ -1,1 +1,0 @@
-/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware/ament_cmake_environment_hooks/local_setup.sh

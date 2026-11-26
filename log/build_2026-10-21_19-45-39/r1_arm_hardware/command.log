@@ -1,2 +1,0 @@
-Invoking command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
-Invoked command in '/home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware' returned '2': /usr/bin/cmake --build /home/wangwenyu/桌面/r1_workspace/build/r1_arm_hardware -- -j16 -l16
