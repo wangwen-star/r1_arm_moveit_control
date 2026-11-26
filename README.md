@@ -39,8 +39,8 @@ sudo apt install ros-humble-moveit ros-humble-ros2-control ros-humble-ros2-contr
 |---|---|---|
 | `r1_arm_hardware/CMakeLists.txt` | 第 20 行 | `set(R1_SDK_ROOT "/home/wangwenyu/桌面/X86_SDK/r1_arm")` → 改成你的 SDK 路径 |
 | `r1_arm_hardware/src/r1_arm_hardware.cpp` | 第 25 行 | `#define R1_SDK_ROOT_PATH ...` 兜底宏 → 同上(正常构建时 CMakeLists 的宏会覆盖它,保持两处一致) |
-| `r1_arm/urdf/r1_arm_with_hardware.xacro` | `calib_path` 参数 | 第10行`/home/wangwenyu/桌面/X86_SDK/r1_arm/config/joint_calib.txt` → 你的 SDK 标定文件绝对路径 |
-| `r1_arm/urdf/r1_arm_with_hardware.xacro` | `serial_port` 参数 | 默认 `/dev/ttyR1`(依赖下面的 udev 规则);不想装规则就改成 `/dev/ttyUSB0` |
+| `r1_arm/urdf/r1_arm_with_hardware.xacro` | `calib_path` 参数 | 第10行：`/home/wangwenyu/桌面/X86_SDK/r1_arm/config/joint_calib.txt` → 你的 SDK 标定文件绝对路径 |
+| `r1_arm/urdf/r1_arm_with_hardware.xacro` | `serial_port` 参数 | 第8行：默认 `/dev/ttyR1`(依赖下面的 udev 规则);不想装规则就改成 `/dev/ttyUSB0` |
 | 各 `package.xml` / `r1_arm/setup.py` | maintainer/author | (可选)维护者姓名与邮箱 |
 
 > 建议用 `grep -rn "wangwenyu" .` 全仓自查一遍,避免遗漏。
